@@ -3,7 +3,6 @@ package com.devsuperior.dslist_peu.controllers;
 
 import com.devsuperior.dslist_peu.dto.GameDTO;
 import com.devsuperior.dslist_peu.dto.GameMinDTO;
-import com.devsuperior.dslist_peu.entities.Game;
 import com.devsuperior.dslist_peu.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/games") //Define o caminho base da API
-public class gameController {
+public class GameController {
 
 
     @Autowired
